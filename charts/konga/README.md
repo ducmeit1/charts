@@ -76,7 +76,7 @@ In order to use them, set the appropriate env vars in your `config section`.
 | affinity                           | Node/pod affinities                                                                   |                     |
 | config.host | The IP address that will be bind by Konga's server | `0.0.0.0` |
 | config.port | The port that will be used by Konga's server | `1337` |
-| config.node_env | The environment `(deployment | production)` | `deployment` |
+| config.node_env | The environment (`deployment`,`production`) | `deployment` |
 | config.ssl_key_path | If you want to use SSL, this will be the absolute path to the .key file. Both SSL_KEY_PATH & SSL_CRT_PATH must be set. | |
 | config.ssl_crt_path | If you want to use SSL, this will be the absolute path to the .crt file. Both SSL_KEY_PATH & SSL_CRT_PATH must be set. | |
 | config.konga_hook_timeout | If you want to use SSL, this will be the absolute path to the .crt file. Both SSL_KEY_PATH & SSL_CRT_PATH must be set. | 60000 |
