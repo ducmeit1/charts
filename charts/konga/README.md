@@ -8,7 +8,9 @@ This chart bootstraps all the components needed to run KongA on a
 
 ## TL;DR;
 ```bash
-helm install ducmeit1/konga
+helm repo add konga https://ducmeit1.github.io/charts
+helm repo update
+helm install konga/konga
 ```
 
 ## Prerequisites
@@ -22,7 +24,9 @@ helm install ducmeit1/konga
 To install the chart with the release `my-release`:
 
 ```bash
-helm install --name myrelease ducmeit1/konga
+helm repo add konga https://ducmeit1.github.io/charts
+helm repo update
+helm install --name myrelease konga/konga
 ```
 
 ## Uninstall
