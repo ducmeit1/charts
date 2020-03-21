@@ -3,7 +3,7 @@ entries:
   konga:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-21T10:57:51.514946+07:00"
+    created: "2020-03-21T11:20:10.957566+07:00"
     description: An open-source dashboard for Kong API Gateway
     digest: 8499cf833785dafa3bcbd664a4fd3ba74e84af1c4c950b36967366e36fd9abe6
     icon: https://raw.githubusercontent.com/pantsel/konga/master/screenshots/konga-logo.png
@@ -12,6 +12,6 @@ entries:
       name: ducho
     name: konga
     urls:
-    - https://ducmeit1.github.io/charts/charts/konga/konga-0.1.0.tgz
+    - https://ducmeit1.github.io/charts/konga-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-21T10:57:51.514167+07:00"
+generated: "2020-03-21T11:20:10.954382+07:00"
