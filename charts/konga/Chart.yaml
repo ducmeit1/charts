@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: "1.0"
+description: An open-source dashboard for Kong API Gateway
+icon: https://raw.githubusercontent.com/pantsel/konga/master/screenshots/konga-logo.png
+name: konga
+maintainers:
+- name: ducho
+  email: ducmeit2016@gmail.com
+version: 0.1.0
